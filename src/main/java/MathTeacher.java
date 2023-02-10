@@ -7,6 +7,10 @@ public class MathTeacher extends Person{
         this.school = school;
     }
 
+    public void walk() {
+        super.walk();
+        System.out.println("I walk very fast");
+    }
     public void techMath(){
         System.out.println("I'm teaching Math!");
     }
@@ -15,6 +19,7 @@ public class MathTeacher extends Person{
         System.out.println("Hello! my name is " + name);
         System.out.println("I am " + age);
     }
+
 
 
 
